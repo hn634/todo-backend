@@ -1,13 +1,19 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
 
-# 仮想環境
-env/
+# Virtual env
 venv/
+env/
 
-# logs
+# Environment variables
+.env
+
+# Logs
 *.log
 
-# OS
-.DS_Store
+# DB (SQLite)
+*.db
+
+# VS Code
+.vscode/
